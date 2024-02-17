@@ -4,12 +4,12 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+  margin: 50px;
 }
 
 .App-image {
-  height: 40vmin;
-  pointer-events: none;
+  height: 60vmin;
+  margin: 50px;
 }
 
 .Nav-image {
@@ -49,4 +49,8 @@
 
 a {
   text-decoration: none;
+
 }
+
+
+

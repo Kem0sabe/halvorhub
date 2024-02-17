@@ -17,7 +17,7 @@ import MenuImg from '../images/halvor.jpg'; // Add this line
 
 const pages = [
     { link: "drage", name: "Dragekurs" },
-    { link: "kite", name: "Kitekurs" },
+    { link: "surf", name: "Surfekurs" },
     { link: "fekte", name: "Fektekurs" }
 ];
 const settings = []//'Profile', 'Account', 'Dashboard', 'Logout'];
@@ -75,7 +75,7 @@ function Navbar() {
                         >
                             <MenuIcon />
                         </IconButton>
-                        <Menu
+                        <Menu 
                             id="menu-appbar"
                             anchorEl={anchorElNav}
                             anchorOrigin={{
@@ -92,6 +92,7 @@ function Navbar() {
                             sx={{
                                 display: { xs: 'block', md: 'none' },
                             }}
+        
                         >
                             {pages.map((page) => (
                                 <MenuItem key={page.link} onClick={handleCloseNavMenu}>
@@ -107,7 +108,7 @@ function Navbar() {
                         variant="h5"
                         noWrap
                         component="a"
-                        href="#app-bar-with-responsive-menu"
+                        href="/"
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
