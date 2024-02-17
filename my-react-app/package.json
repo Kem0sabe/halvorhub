@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   
-  "homepage": "https://<username>.github.io/<repository-name>",
+  "homepage": "https://kem0sabe.github.io/halvorhub",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
