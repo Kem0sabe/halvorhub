@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
 import halvorImage from '../images/halvor.jpg'; // Add this line
 const Drage = () => {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div className="App-body">
         <h1>Fektekurs</h1>

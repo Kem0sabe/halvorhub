@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
 import drageImage from '../images/drage.jpg'; // Add this line
 const Drage = () => {
-  return (
-    <div className="App-body">
+        useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+        }, []);
+    return (
+        <div className="App-body">
         <h1>Dragekurs</h1>
         <p>Med 22 års erfaring innen dragekunsten, vil du få en rutinert instruktør.</p>
           <img src={drageImage} className="App-image" alt="Halvor" /> {/* Add this line */}
