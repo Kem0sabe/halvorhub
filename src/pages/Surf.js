@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 
 
 
-import halvorImage from '../images/halvor.jpg'; // Add this line
+import surfImage from '../images/surf.jpg'; // Add this line
 const Drage = () => {
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const Drage = () => {
         <h1>Surfekurs</h1>
         <p>Er du klar for å surfe??? Snart lanserer jeg surfekurs!</p>
         
-          <img src={halvorImage} className="App-image" alt="Halvor" />s
+          <img src={surfImage} className="App-image" alt="Halvor" />
         <h3>Påmelding</h3>
           <p>Kommer snart</p>
 
