@@ -16,6 +16,7 @@ import { Link } from "react-router-dom";
 import MenuImg from '../images/halvor.jpg'; // Add this line
 
 const pages = [
+    { link: "crime", name: "Crime" },
     { link: "drage", name: "Dragekurs" },
     { link: "surf", name: "Surfekurs" },
     { link: "fekte", name: "Fektekurs" }

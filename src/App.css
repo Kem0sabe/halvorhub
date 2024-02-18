@@ -28,6 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; /* Add this line */
 
   font-size: calc(10px + 2vmin);
   color: black;
@@ -50,6 +51,19 @@
 a {
   text-decoration: none;
 
+}
+
+.inputField {
+  margin: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 200px;
+  background-color: white;
+}
+
+.inputFieldContainer {
+  margin: 20px;
 }
 
 
